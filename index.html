@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/css/intlTelInput.css">
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@17/build/js/intlTelInput.min.js"></script>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" aria-label="Eleventh navbar example">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample09">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <video autoplay loop muted playsinline>
+            <source src="https://cdn.flipperzero.one/bsb_tilda_desktop_1st_vid_01.mp4" type="video/mp4">
+            The browser does not support the video.
+        </video>
+        
+        <div id="header_info" class="d-flex align-items-center justify-content-center col">
+            <div>
+                <p>
+                    <b>Busy Status Bar</b> is a productivity multi-tool device with an LED pixel screen. Displays a personal busy message. 
+                    Built-in Pomodoro timer and Apps. Fully customizable, open-source, and hacker-friendly.
+                </p>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-danger px-5">BUY</button>
+                </div>
+            </div> 
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row benefits">
+            <div class="col-12 col-lg-4">
+                Time management apps, custom busy message, Pomodoro focus timer
+            </div>
+            <div class="col-12 col-lg-4">
+                App Library, connection to 3rd party software, integrations with calendar events and calls
+            </div>
+            <div class="col-12 col-lg-4">
+                Open HTTP API, open-source SDK, Python / Go / JavaScript libs, MQTT, no vendor lock-in
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row productivity g-3">
+            <h1 class="text-center my-5">Productivity multi-tool</h1>
+            <div class="col-12 col-xl-4 order-2 order-lg-2">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h2 class="card-title">Busy Status</h2>
+                        <p class="card-text">Customizable busy status message to match your own workflow.</p>
+                        <ul>
+                            <li>Set any busy message, expiry timer and activation trigger</li>
+                            <li>Upload custom busy graphics or choose from gallery</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-8 order-1 order-lg-2 ">
+                <div class="card card-img" style="background-color: transparent; border: none;">
+                    <img src="https://busy.bar/img/tild6163-3961-4233-a438-663566386561__bv_orange_3_1.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 order-3">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 order-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 order-5">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="busy_status">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-12 col-xl-6 p-3 d-flex justify-content-center align-items-center quiz_block">
+                    <div>
+                        <!-- Quiz form -->
+                        <form id="quiz-form">
+                            <h3 class="mb-3">Python Quiz</h3>
+                            <div class="question mb-1">
+                                <p>1. Which of the following is used to define a function in Python?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q1" value="def" id="q1a">
+                                    <label class="form-check-label" for="q1a">def</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q1" value="function" id="q1b">
+                                    <label class="form-check-label" for="q1b">function</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q1" value="func" id="q1c">
+                                    <label class="form-check-label" for="q1c">func</label>
+                                </div>
+                            </div>
+                    
+                            <!-- Question 2 -->
+                            <div class="question mb-1">
+                                <p>2. What is the correct syntax to create a list in Python?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q2" value="[1, 2, 3]" id="q2a">
+                                    <label class="form-check-label" for="q2a">list = [1, 2, 3]</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q2" value="{1, 2, 3}" id="q2b">
+                                    <label class="form-check-label" for="q2b">list = {1, 2, 3}</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q2" value="(1, 2, 3)" id="q2c">
+                                    <label class="form-check-label" for="q2c">list = (1, 2, 3)</label>
+                                </div>
+                            </div>
+                    
+                            <!-- Question 3 -->
+                            <div class="question mb-1">
+                                <p>3. How do you create a variable in Python?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q3" value="variable = value" id="q3a">
+                                    <label class="form-check-label" for="q3a">variable = value</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q3" value="let variable = value" id="q3b">
+                                    <label class="form-check-label" for="q3b">let variable = value</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q3" value="var variable = value" id="q3c">
+                                    <label class="form-check-label" for="q3c">var variable = value</label>
+                                </div>
+                            </div>
+                    
+                            <!-- Question 4 -->
+                            <div class="question mb-1">
+                                <p>4. Which of these is a valid Python data type?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q4" value="integer" id="q4a">
+                                    <label class="form-check-label" for="q4a">integer</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q4" value="float" id="q4b">
+                                    <label class="form-check-label" for="q4b">float</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q4" value="all of the above" id="q4c">
+                                    <label class="form-check-label" for="q4c">all of the above</label>
+                                </div>
+                            </div>
+                    
+                            <!-- Question 5 -->
+                            <div class="question mb-1">
+                                <p>5. How do you print a message in Python?</p>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q5" value="console.log('message')" id="q5a">
+                                    <label class="form-check-label" for="q5a">console.log('message')</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q5" value="print('message')" id="q5b">
+                                    <label class="form-check-label" for="q5b">print('message')</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="q5" value="echo 'message'" id="q5c">
+                                    <label class="form-check-label" for="q5c">echo 'message'</label>
+                                </div>
+                            </div>
+                                    
+                            <button type="submit" class="btn btn-primary">Submit Quiz</button>
+                        </form>
+
+                        <!-- Registration form -->
+                        <form id="registration-form" class="mt-4 d-none">
+                            <h3 class="mb-4">Registration Form</h3>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        
+                        </form>
+                        <div id="error-message" class="error"></div>
+                    </div>
+                </div>
+                
+
+                <div class="d-none d-xl-block col-xl-6">
+                    <div class="bg_image "></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls p-5">
+        <div>
+            <h1 class="text-center">Manual controls</h1>
+            <div class="text-center pb-5">Physical buttons allow to control the device.</div>
+        </div>
+        <div>
+            <img src="./img/controls.jpg" alt="Controls image">
+        </div>
+    </div>
+
+    <footer class="container-fluid">
+        <div class="row p-5">
+            <div class="col-12 col-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam suscipit expedita at alias deserunt iure dolores magnam praesentium autem. Ad similique in adipisci mollitia ipsa nisi eligendi autem sequi quas!</div>
+            <div class="col-12 col-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quis, libero ad rerum repudiandae nemo eius officia fugiat, doloremque iusto aliquid? Natus beatae at nulla itaque, dolore eum tenetur velit.</div>
+            <div class="col-12 col-md-4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus veritatis at quisquam ipsam provident ea est dolore et quae in, earum praesentium, voluptates, unde ipsa cupiditate quod. Ex, facilis!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed necessitatibus odio iste omnis error, id praesentium corporis architecto! Ratione, animi? Velit corporis provident rem assumenda, repudiandae quia ea doloribus architecto.
+            </div>
+            <div class="col-12 col-md-2">89798 897987987</div>
+        </div>
+    </footer>
+</body>
+</html>
